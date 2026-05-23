@@ -1,4 +1,3 @@
-```markdown
 # Fashion MNIST Classification with PyTorch
 
 This project demonstrates the classification of Fashion MNIST dataset images using various PyTorch models. The goal is to build and compare the performance of a simple linear model, a linear model with non-linear activation functions, and a Convolutional Neural Network (CNN).
@@ -72,13 +71,9 @@ These can typically be installed via `pip`:
 
 ```bash
 pip install torch torchvision matplotlib pandas tqdm requests mlxtend torchmetrics
-```
+Note: helper_functions.py is downloaded during the notebook execution.
 
-Note: `helper_functions.py` is downloaded during the notebook execution.
-
-## How to Run
-
-1.  Open the `.ipynb` file in a Jupyter environment (e.g., Google Colab).
-2.  Run all cells sequentially.
-3.  Ensure a GPU is available and enabled in your runtime settings for faster training of `FashionMNISTModelV1` and `FashionMNISTModelV2`.
-```
+How to Run
+Open the .ipynb file in a Jupyter environment (e.g., Google Colab).
+Run all cells sequentially.
+Ensure a GPU is available and enabled in your runtime settings for faster training of FashionMNISTModelV1 and FashionMNISTModelV2.
